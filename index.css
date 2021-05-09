@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: rgba(226, 226, 226, 0.842);
+  
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: #ffffff;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    box-shadow: 3px 3px 3px grey;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: #759fbc;
+    padding: 16px;
+    height:50px;
+    text-decoration: none;
+  }
+  
+  .sidebar a.head {
+    background-color: #ffffff;
+    width: 300px;
+    box-shadow: 0.5px 0.5px 0.5px grey;
+  }
+   
+  .sidebar a.active {
+    background-color: lightblue;
+    border-left:5px solid rgb(56, 56, 246);
+    color: black;
+  }
+  
+  div.content {
+    margin-left: 100px;
+    padding: 1px 16px;
+  }
+  #video {
+      padding-left: 16px;
+      font-weight: bold;
+      color: #759fbc;
+  }
+  #insert {
+      margin-left: 200px;
+  }
+  #insertField {
+      width: 1000px;
+      height: 30px;
+      font-weight: 700;
+      border-radius: 10px;
+      border-color: aliceblue;
+  }
+  #or {
+      margin-left: 700px;
+      font-weight: bold;
+  }
+  #upload {
+    background-color: white;
+    width: 100px;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 70px;
+    margin-left: 200px;
+  }
+  #uploadText {
+      padding: 10px;
+  }
+  div.space {
+      height: 80px;
+      background-color: white;
+    padding: 1px 16px;
+    box-shadow: 1px 1px 1px grey;
+  }
